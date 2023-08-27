@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #fff6ee;
+  font-family: "Poppins", sans-serif;
+  text-transform: capitalize;
+}
+
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+.title,
+.title_band {
+  font-weight: 500;
+}
+.header .title {
+  color: #300a4e;
+  font-size: 35px;
+}
+.header .title_band {
+  color: #5d5765;
+  font-size: 15px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 18px;
+  font-weight: 600;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+
+.table {
+  max-width: 90vw;
+  overflow: hidden;
+
+  margin: auto;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+  text-align: center;
+}
+thead {
+  background: #161a19;
+  height: 60px;
+  color: #fff;
+  padding-top: 20px;
+}
+th,
+td {
+  padding: 10px 15px;
+}
+td {
+  font-weight: 400;
+}
+
+.create_btn {
+  background: #2f42c9;
+  margin-bottom: 15px;
+}
+.update_btn {
+  background: #ffcf27;
+  margin-right: 10px;
+  color: #3d1a59;
+}
+
+.delete_btn {
+  background: #e62b6e;
+  color: #fff;
+}
+
+/* create book */
+
+.form {
+  max-width: 350px;
+  margin: 0 auto;
+  width: 100%;
+}
+
+form input {
+  width: 100%;
+  height: 40px;
+  padding: 5px;
+  border-radius: 5px;
+
+  border: 0.5px solid #beb7b7;
+}
+form input:focus {
+  outline: none;
+}
+
+.create__btn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 10px;
+}
+.create__btn input {
+  width: 100px;
+  color: white;
+  font-weight: 600;
+  font-size: 16px;
+  border: none;
+}
+.create__btn input:first-child {
+  background: #1acd97;
+}
+.create__btn input:last-child {
+  background-color: #e62b6e;
+}
+label {
+  font-size: 14px;
+  margin-top: 5px;
+}
